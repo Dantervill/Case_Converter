@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+    border: 2px solid orange;
+}
+
+.title, .form, .options {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 0;
+}
+
+.button {
+    margin-right: 20px;
+    padding: 10px;
+
+    border: none;
+    background-color: orange;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
